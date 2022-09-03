@@ -1,0 +1,55 @@
+.statistic {
+  &__header {
+    &__title {
+      font-size: 2vw;
+    }
+
+    &__type {
+      display: flex;
+      font-size: 1.2vw;
+
+      &__text {
+        width: 180px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background: #fefefe;
+        margin-right: 10px;
+        border: 1px solid #08daff;
+        border-radius: 5px;
+      }
+
+      &__text:hover {
+        cursor: pointer;
+      }
+
+      &__text:active {
+        background: #fafafa;
+      }
+    }
+  }
+
+  &__day {
+    margin-top: 30px;
+
+    &__picker {
+      margin-bottom: 10px !important;
+    }
+
+    &__form {
+      margin-top: 2rem;
+      font-size: 1vw;
+    }
+  }
+
+  &__month {
+    margin-top: 30px;
+  
+    &__picker {
+      margin-right: 20px !important;
+      margin-bottom: 20px !important;
+    }
+  }
+}
